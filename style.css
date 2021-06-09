@@ -1,0 +1,44 @@
+:root {
+  --background: #121212;
+  --primary: #39daa4;
+  --secondary: #c9c9c9;
+  --terciary: #52057b;
+}
+
+body {
+  background-color: var(--background);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+span,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#text {
+  color: var(--secondary);
+  text-align: left;
+}
+
+.main {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#date {
+  text-align: center;
+  display: inline-block;
+}
+
+#date1 {
+  color: var(--primary);
+  text-align: center;
+}
+
+#date2 {
+  color: var(--primary);
+  text-align: center;
+}
